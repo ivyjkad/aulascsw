@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <title>Aula Três Imagens
+    </title>
+
+</head>
+
+<body>
+    <center>
+        <!--tag picture dentro a tag "source media" para definir tamanho da imagem com width usand variaveis "max (767) e min(768)"-->
+        <!--site para encontrar icones de title: "https://favicon.io/" -->
+        <h1>Desafio das Imagens</h1>
+        <h3>São Paulo</h3>
+
+        <picture>
+            <source media="(min-width:650px)" srcset="pontespdois.jpg">
+            <source media="(min-width:465px)" srcset="pontespdois.jpg">
+            <img src="pontesp.jpg" alt="Centro de São Paulo" style="width:auto;">
+
+
+        </picture>
+        <hr>
+        <br><br><br><br>
+
+        <img src="maspsp.jpg" alt="Masp, na avenida Paulista em Sp">
+
+    </center>
+</body>
+
+</html>
