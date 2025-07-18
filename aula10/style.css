@@ -1,0 +1,15 @@
+/*Style.Css*/
+body{
+    font-size: 1em;
+    color: #A0522D;
+    background-color: 	#f7e1cc;
+}
+h1 {
+    font-size: 2em;
+    color:#dd741e;
+}
+h2 {
+    font-size:2em;
+    color:#A0522D;
+    background-color:#dd741e;
+}

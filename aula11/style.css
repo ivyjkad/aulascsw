@@ -1,0 +1,30 @@
+/*style.css*/
+body{
+    font-size: 1em;
+    background-image: linear-gradient(90deg,#339DE3,#90DDF5);
+}
+.main {
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(0, 148, 225);
+    border-radius: 50px;
+    transform: translate(-50%,-50%);
+    padding:50px;
+    width:600px;
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#2560A1;  
+    text-align: center;  
+}
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:relative;
+    color:#02B1BD;
+}
+p {
+    color:black;
+    text-shadow: 0px 0px 1px rgb(27, 29, 31);
+}
