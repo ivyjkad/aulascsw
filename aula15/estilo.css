@@ -1,0 +1,49 @@
+body {
+    background-color:#134a5f;
+    font-size: 25px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(236, 240, 184);
+    padding: 1%;
+}
+.campo {
+    padding-block: 1px;
+    font-size: 15px;
+    width: 450px;
+    height: 60px;
+}
+.bolinha {
+    width: 50px;
+    height: 60px;
+}
+select {
+    width: 450px;
+    height: 60px;
+}
+textarea {
+    width: 500px;
+    height: 250px;
+}
+
+.radio-option {
+    color:rgb(236, 240, 184);
+}
+.botao {
+        font-size: 25px;
+        background-color: rgb(82, 153, 182);
+        color: rgb(236, 240, 184);
+        border-radius: 5px;
+        cursor:pointer;
+        transition: background-color 0,3s ease;
+}
+.botao:hover {
+    background-color:rgb(35, 63, 75);
+}
+

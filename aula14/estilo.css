@@ -1,0 +1,26 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    color:brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+.aula {
+    text-align: center; /*alinhar texto*/
+    display:flex; /**/
+    flex-direction:column; /*Direção do eixo*/
+    flex-wrap: wrap; /*Quebra de linha*/
+    background-color: bisque;
+    justify-content: space-around;
+    flex-grow: 2; /*Define o tamanho que os itens cresceram dentro do container*/
+    flex-shrink: 1; /*O inverso do grow, define o quanto diminuiram*/
+    flex-basis: 2; /*Define qual sera o tamanho padrão do item*/
+    align-self: flex-end; /*Define um alinhamento para um unico item dentro do container*/
+}
+
+.form {
+    
+}

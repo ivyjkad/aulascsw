@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(33, 105, 172);
+    color: rgb(165, 182, 190);
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+div{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+button{
+    background-color: #0b253d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #194b7a;
+}
