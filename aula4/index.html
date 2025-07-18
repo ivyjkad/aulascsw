@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    abbr {
+    font-style: italic
+    }
+    <title>Aula Quatro</title>
+
+
+</head>
+
+<body>
+
+    <H1>Principais Formatações</H1><br>
+    <h2>Negrito / Destaque</h2>
+    Na frase temos uma parte do <b>texto em negrito</b> usando a tag B (não semantica) <br>
+    Na frase temos uma parte do <strong>texto em negrito usando a tag strong</strong> (forma semantica)
+
+    <h2>Italico / Ênfase</h2>
+    <p>Nesta frase vamos entrar com uma palavra em <i>Italico</i> usando a tag i (não semantica)
+        <br>Nesta frase vamos entrar com uma palavra em <em>Italico</em> usando a tag EM (com semantica)
+        <br>
+
+    <h2> Texto Marcador</h2>
+    <p> Nesta frase vamos entrar com um texto com destaque de <mark>Marcador de texto</mark> usando mark
+        <br> Nesta frase vamos entrar com um texto com destaque de <mark>Marcador de texto</mark> usando mark
+    </p>
+
+    <h2>Texo Grande e Pequeno</h2>
+    <p>Estamos trabalhando aqui com um <big>Texto grande</big> e um <small>Texto pequeno</small> <br>
+
+    <h2>Texto deletado</h2>
+    <p>Neste paragrafo vamos trabalhar com um texto <del>que foi deletado</del> da frase (forma semantica)<br>
+
+    <h2>Texto inserido</h2>
+    <p>Nesta fase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semantica
+        <br>Nesta fase vamos demonstrar como <ins>destacar um texto inserido</ins> na frase de forma semantica<br>
+
+    <h2>Texto sobrescrito</h1>
+        <p>Vamos demonstrar uma formula na equação de segundo grau ax<sup>2</sup>+ bx + c = 0 usando a tag sup</p>
+
+        <h2>Trecho de codigo</h1>
+            <p>Neste exemplo vou demonstrar um trecho de codigo<br>
+                inserindo o comando document.getElementById('edtCodigo') que é um comando javascript<br>
+                Inserindo codigo python<br>
+            <pre><code>
+            def remove_outliers(df, column):
+            Q1 = df[column].quantile(0.25)
+            Q3 = df[column].quantile(0.75)
+            IQR = Q3 - Q1
+            
+            # Limites inferior e superior para detecção de outliers
+            lower_bound = Q1 - 1.5 * IQR
+            upper_bound = Q3 + 1.5 * IQR
+            
+            # Filtra os dados removendo outliers
+            df_cleaned = df[(df[column] >= lower_bound) & (df[column] <= upper_bound)]
+            
+            return df_cleaned</pre></code>
+
+            <h2>Citação (quotation) simples</h1>
+                <p>Segundo Steve Jobs "A tecnologia move o mundo"<br>
+
+                <h2>Citações Completas (livros)</h1>
+                    <p> Trecho informativo sobre o livro "As Reliquias da Morte" de J.K Rowling:<br>
+                    <blockquote>A varinha das varinhas, a pedra da ressurreição e a capa da invisibilidade.
+                        Três coisas, e todas elas com um só propósito: garantir a vitória definitiva sobre a morte.
+                        Não é para isso que todos buscamos, afinal? A capacidade de dominar a morte, de superá-la?
+                    </blockquote>
+
+                    <h2>Abreviações</h1>
+                        Estamos estudando <dfn id="html"><abbr title="HyperText Markup Language">HTML</abbr></dfn> e
+                        <dfn id="css"> <abbr title="Cascading Style Sheets">CSS</abbr></dfn>
+                        <h2>Texto invertido</h1>
+                            Estou estudando HTML <br>
+                            <bdo dir="rtl">Estou estudando HTML</bdo>
+</body>
+
+</html>
