@@ -1,0 +1,31 @@
+body { 
+    background-color: aliceblue;
+}
+
+main{
+    background-color: white; 
+    width: 1000px; 
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px;
+}
+.inter {
+    background-color: white; 
+    width: 1000px; 
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 25px;
+}
+
+.container{
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+background-color:black;
+display: flex;
+}
+
+.container #calculadora h1 {
+    background-image: url(./calculadora);
+}
